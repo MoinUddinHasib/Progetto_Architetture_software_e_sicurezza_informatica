@@ -1,5 +1,8 @@
 # Progetto_architetture_software_e_sicurezza_informatica_2020
 
+## Setup
+
+Creare una cartella di nome "channels" in app/assets/javascripts
 
 ## Data Models
 
