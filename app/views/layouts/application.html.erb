@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Forum</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <h1>
+        <%= "Forum" %>
+    </h1>
+
+    <h2><a href="/auth/twitter">Sing in with Twitter</a></h2>
+
+    <div>
+        <%= yield %>
+    </div>
+
+  </body>
+</html>
