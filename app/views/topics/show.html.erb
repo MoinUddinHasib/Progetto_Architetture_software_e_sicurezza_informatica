@@ -10,5 +10,7 @@
   <%= @topic.body %>
 </p>
 
+<%= @topic.created_at.strftime("%d %b %Y") %>
+<br/>
 <%= link_to 'Edit', edit_topic_path(@topic) %> |
 <%= link_to 'Back', topics_path %>

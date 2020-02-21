@@ -1,0 +1,6 @@
+<h3>Editing Topic</h3>
+
+<%= render 'form', topic: @topic %>
+
+<%= link_to 'Show', @topic %> |
+<%= link_to 'Back', topics_path %>
