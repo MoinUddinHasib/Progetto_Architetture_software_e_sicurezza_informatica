@@ -14,6 +14,7 @@ date of birth | string
 location | string 
 email | string 
 password | string
+password_confirmation | string
 comments | has\_many 
 
 ### Premium User
