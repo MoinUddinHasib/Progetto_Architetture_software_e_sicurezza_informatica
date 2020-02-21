@@ -75,3 +75,4 @@ body | string
 28) As a Premium user i want to comment so that i can express my opinion.
 29) As a Premium user i want to edit a topic so that i can change the discussion.
 30) As a Premium user i want to read news so that i can receive information.
+->cancel account
