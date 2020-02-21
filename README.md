@@ -24,6 +24,13 @@ Attribute | Type
 :-:|:-:
 topics | has\_many 
 
+### Admin User
+
+**Inherits**: Standard User
+
+Attribute | Type 
+:-:|:-:
+
 ### Topic
 
 Attribute | Type 
