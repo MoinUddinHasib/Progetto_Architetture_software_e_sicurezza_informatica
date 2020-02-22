@@ -21,14 +21,14 @@
 
               <div><%= link_to 'Account', edit_user_registration_path %></div>
               <%= current_user.email  %>
-              <%= link_to "Log Out", destroy_user_session_path %>
+              <%= link_to "Log Out", destroy_user_session_path, method: :delete %>
                 <hr/>
               <div><%= link_to 'New Topic', new_topic_path %></div>
 
          <% else %>
             <div><%= link_to "Sign In", new_user_session_path %></div>
             <div><%= link_to "Sign up", new_user_registration_path %></div>
-
+            <hr/>
           <% end %>
   <div>
     <%= yield %>

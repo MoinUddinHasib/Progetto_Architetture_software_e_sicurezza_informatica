@@ -1,0 +1,14 @@
+ <%= simple_form_for([@topic, @topic.comments.build], remote: true) do |f| %>
+
+     <div>
+       <div>
+         <%= f.input :body, input_html: { class: 'textarea' }, wrapper: false, label_html: { class: 'label' } %>
+       </div>
+     </div>
+    
+     <%= f.button :submit, 'Comment' %>
+    
+ <% end %>
+
+
+  
