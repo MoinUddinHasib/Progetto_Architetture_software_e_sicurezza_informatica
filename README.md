@@ -3,7 +3,7 @@
 
 ## Data Models
 
-### Standard User
+### User
 
 Attribute | Type 
 :-:|:-:
@@ -15,13 +15,6 @@ location | string
 email | string 
 password | string
 comments | has\_many 
-
-### Premium User
-
-**Inherits**: Standard User
-
-Attribute | Type 
-:-:|:-:
 topics | has\_many 
 
 ### Topic
@@ -29,7 +22,7 @@ topics | has\_many
 Attribute | Type 
 :-:|:-:
 comments | has\_many
-premium user | belongs\_to 
+user | belongs\_to 
 title | string
 body | string
 
@@ -38,8 +31,7 @@ body | string
 Attribute | Type 
 :-:|:-:
 topics | belongs\_to 
-premium user | belongs\_to 
-standard user | belongs\_to 
+user | belongs\_to 
 body | string
 
 ## User stories
@@ -74,5 +66,6 @@ body | string
 28) As a Premium user i want to comment so that i can express my opinion.
 29) As a Premium user i want to edit a topic so that i can change the discussion.
 30) As a Premium user i want to read news so that i can receive information.
+
 (contact us for help)
 (cancel account)
