@@ -66,6 +66,6 @@ body | string
 28) As a Premium user i want to comment so that i can express my opinion.
 29) As a Premium user i want to edit a topic so that i can change the discussion.
 30) As a Premium user i want to read news so that i can receive information.
-
-(contact us for help)
-(cancel account)
+31)(contact us for help)
+32)(cancel account)
+33)(forgot password)
