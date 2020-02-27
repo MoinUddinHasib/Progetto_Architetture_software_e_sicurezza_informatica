@@ -34,7 +34,7 @@ topics | belongs\_to
 user | belongs\_to 
 body | string
 
-## User stories
+## User stories (da rivedere)
 
 1) As an unregistred user i want to signup so that i can become a Standard or Premium User.
 2) As an unregistred user i want to become Guest User so that i can read topics. 
