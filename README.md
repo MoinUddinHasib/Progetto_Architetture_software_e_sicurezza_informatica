@@ -64,8 +64,10 @@ body | string
 26) As an User i want to delete my topic so that i can remove it.
 27) As an User i want to delete my account so that i can remove it.
 28) As an User i want to sign out from my account so that i can become unregistred user.
-29) As an Admin i want to delete all topics so that i can remove all.
-30) As an Admin i want to delete all comments so that i can remove all opinions.
-31) As an Admin i want to delete my account so that i can remove it.
-32) As an Admin i want to read news so that i can receive information.
-33) As an Admin i want to sign out from my account so that i can become unregistred user.
+29) As an User i want to edit my password so that i can change it.
+30) As an Admin i want to delete all topics so that i can remove all.
+31) As an Admin i want to delete all comments so that i can remove all opinions.
+32) As an Admin i want to edit my password so that i can change it.
+33) As an Admin i want to delete my account so that i can remove it.
+34) As an Admin i want to read news so that i can receive information.
+35) As an Admin i want to sign out from my account so that i can become unregistred user.
