@@ -1,5 +1,11 @@
 # Progetto_architetture_software_e_sicurezza_informatica_2020
 
+## To open the server
+
+$ bundle install
+$ rake db:migrate
+$ rails server
+
 
 ## Data Models
 
