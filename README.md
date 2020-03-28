@@ -3,7 +3,9 @@
 ## To open the server
 
 $ bundle install
+
 $ rake db:migrate
+
 $ rails server
 
 
