@@ -9025,3 +9025,26 @@ Processing by TopicsController#index as HTML
 Completed 200 OK in 37ms (Views: 35.4ms | ActiveRecord: 0.2ms)
 
 
+Started GET "/" for 192.168.1.62 at 2020-06-19 16:30:21 +0200
+Cannot render console from 192.168.1.62! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TopicsController#index as HTML
+  Rendering topics/index.html.erb within layouts/application
+  [1m[36mTopic Load (0.3ms)[0m  [1m[34mSELECT "topics".* FROM "topics" ORDER BY created_at desc[0m
+  Rendered topics/index.html.erb within layouts/application (31.2ms)
+Completed 200 OK in 1211ms (Views: 1167.7ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/users/sign_up" for 192.168.1.62 at 2020-06-19 16:30:25 +0200
+Cannot render console from 192.168.1.62! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (5.7ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (164.2ms)
+Completed 200 OK in 333ms (Views: 287.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/users/auth/facebook" for 192.168.1.62 at 2020-06-19 16:30:29 +0200
+Cannot render console from 192.168.1.62! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/users/auth/facebook" for 192.168.1.62 at 2020-06-19 16:30:30 +0200
+Cannot render console from 192.168.1.62! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
