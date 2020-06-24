@@ -17,8 +17,10 @@
         <td><%= topic.title %></td>
         <td><%= topic.body %></td>
         <td><%= link_to 'Show', topic %></td>
+	<% if user_signed_in? && (current_user.id == @topic.user_id || has_role?(:admin) )%>
         <td><%= link_to 'Edit', edit_topic_path(topic) %></td>
         <td><%= link_to 'Destroy', topic, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+	<% end %>
       </tr>
     <% end %>
   </tbody>

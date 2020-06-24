@@ -24,6 +24,8 @@ email | string
 password | string
 comments | has\_many 
 topics | has\_many 
+provider | string
+provider | string
 
 ### Topic
 
@@ -41,6 +43,19 @@ Attribute | Type
 topics | belongs\_to 
 user | belongs\_to 
 body | string
+
+### Users_roles
+
+Attribute | Type 
+:-:|:-:
+user_id | integer
+role_id | integer
+
+### Roles
+
+Attribute | Type 
+:-:|:-:
+name | String
 
 ## User stories
 
@@ -77,5 +92,4 @@ body | string
 31) As an Admin i want to delete all comments so that i can remove all opinions.
 32) As an Admin i want to edit my password so that i can change it.
 33) As an Admin i want to delete my account so that i can remove it.
-34) As an Admin i want to read news so that i can receive information.
-35) As an Admin i want to sign out from my account so that i can become unregistred user.
+34) As an Admin i want to sign out from my account so that i can become unregistred user.

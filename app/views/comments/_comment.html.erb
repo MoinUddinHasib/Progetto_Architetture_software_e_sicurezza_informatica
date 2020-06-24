@@ -4,9 +4,7 @@
     <%= comment.body %> 
 </p>
 
-<%# if user_signed_in? && current_user.id == reply.user_id || (current_user && current_user.has_role?(role)) %>
-
-<% if user_signed_in? && current_user.id == comment.user_id %>
+<% if user_signed_in? && (current_user.id == comment.user_id || has_role?(:admin) ) %>
 <%= link_to 'Edit' , edit_topic_comment_path(comment.topic, comment) %>
 <%= link_to 'Destroy' , [comment.topic, comment], method: :delete, data: {confirm: "Are you sure ?" } %>
 

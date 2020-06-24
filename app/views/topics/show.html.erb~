@@ -10,7 +10,22 @@
   <%= @topic.body %>
 </p>
 
-<%= @topic.created_at.strftime("%b %d. %Y") %>
+<%= @topic.created_at.strftime("%d %b %Y") %>
 <br/>
+<%= @topic.user.nickname %>
+<br/>
+<%= @topic.user.location %>
+<br/><% if user_signed_in? && current_user.id == topic.user_id %>
 <%= link_to 'Edit', edit_topic_path(@topic) %> |
+<%= link_to 'Destroy', topic_path(@topic), method: :delete, data: { confirm: 'Are you sure?' } %> |<% end %>
 <%= link_to 'Back', topics_path %>
+<hr/>
+<h2><%= @topic.comments.count %> Comments </h2>
+
+<div id="topic-comments">
+  <%= render @topic.comments %>
+</div>
+
+<% if user_signed_in? %>
+      <%= render 'comments/form' %>
+<% end %>
