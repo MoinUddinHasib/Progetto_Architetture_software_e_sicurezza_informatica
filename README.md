@@ -25,7 +25,7 @@ password | string
 comments | has\_many 
 topics | has\_many 
 provider | string
-provider | string
+uid | string
 
 ### Topic
 
