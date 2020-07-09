@@ -93,3 +93,4 @@ name | String
 32) As an Admin i want to edit my password so that i can change it.
 33) As an Admin i want to delete my account so that i can remove it.
 34) As an Admin i want to sign out from my account so that i can become unregistred user.
+35) As an User i want to edit my topic so that i can correct it.
