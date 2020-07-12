@@ -20,6 +20,7 @@ Utente_admin -> Oltre a leggere ed aprire nuove discussioni e commentare, può m
 
 ## Autenticazione
 Locale -> L’utente può registrarsi con un apposito modulo presente nel forum.
+
 OAuth -> L’utente può autenticarsi tramite il suo account facebook.
 
 ## Data Models
