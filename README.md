@@ -2,12 +2,23 @@
 
 ## To open the server
 
-$ bundle install
+  $ bundle install
 
-$ rake db:migrate
+  $ rake db:migrate
 
-$ rails server
+  $ rails server
 
+## Descrizione
+L’applicazione consiste di un semplice forum nella quale ogni utente registrato può aprire una discussione  in cui altri utenti registrati possono commentare per esprimere le loro opinioni.
+
+## Ruoli
+Utente_non_registrato -> Può soltanto visitare il forum cioè leggere ogni discussione e commento.
+Utente_registrato -> Oltre a leggere può aprire nuove discussioni e commentare avendo la possibilità di modificare soltanto le sue discussioni e i suoi commenti.
+Utente_admin -> Oltre a leggere ed aprire nuove discussioni e commentare, può modificare ogni discussione ed ogni commento presente nel forum.
+
+## Autenticazione
+Locale -> L’utente può registrarsi con un apposito modulo presente nel forum.
+OAuth -> L’utente può autenticarsi tramite il suo account facebook.
 
 ## Data Models
 
@@ -94,3 +105,9 @@ name | String
 33) As an Admin i want to delete my account so that i can remove it.
 34) As an Admin i want to sign out from my account so that i can become unregistred user.
 35) As an User i want to edit my topic so that i can correct it.
+--------------
+## Autori
+
+Hasib		Moin Uddin		1691701
+Alessio		Cugliari			1669278
+Andrea		Guizzaro			1812828
