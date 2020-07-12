@@ -13,7 +13,9 @@ L’applicazione consiste di un semplice forum nella quale ogni utente registrat
 
 ## Ruoli
 Utente_non_registrato -> Può soltanto visitare il forum cioè leggere ogni discussione e commento.
+
 Utente_registrato -> Oltre a leggere può aprire nuove discussioni e commentare avendo la possibilità di modificare soltanto le sue discussioni e i suoi commenti.
+
 Utente_admin -> Oltre a leggere ed aprire nuove discussioni e commentare, può modificare ogni discussione ed ogni commento presente nel forum.
 
 ## Autenticazione
@@ -109,5 +111,7 @@ name | String
 ## Autori
 
 Hasib		Moin Uddin		1691701
+
 Alessio		Cugliari			1669278
+
 Andrea		Guizzaro			1812828
